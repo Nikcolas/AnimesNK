@@ -1,0 +1,95 @@
+
+body{font-family: Arial;}
+
+  #menu{
+  background-color: #000;
+  }
+  #menu ul{
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  }
+  
+  #menu ul li{
+  display: inline-block;
+  }
+  #menu ul li a{
+  color: white;
+  display: block;
+  padding: 10px 90px;
+  text-decoration: none;
+  }
+  #menu ul li a:hover{
+  background-color: #0FC;
+  }
+
+
+
+body{
+ background: url(../img/parasyte.webp);	
+ background-size: 50vw 50vh;
+ background-attachment:fixed;
+ margin 0;
+
+ 
+}
+form{
+	width: 450px;
+	margin:auto;
+	background: rgba(0,0,0,0.5);
+	padding: 10px 20px;
+	box-sizing:border-box;
+	margin-top:20px;
+	border-radius: 7px;
+}
+
+
+h2{
+color:#0FC;
+font-family:"Comic Sans MS", cursive;
+text-align:center;
+margin: 0;
+font-size: 30px;
+margin-bottom:20px;
+	
+}
+input, textarea{
+	width: 400px;
+	margin-bottom: 20px;
+	padding: 7px;
+	box-sizing: border-box;
+	font-size:17px;
+	border:none;
+	
+	
+}
+
+textarea{
+	min-height: 100px;
+	max-height: 200px;
+	max-width: 400px;	
+}
+
+#boton {
+	background: #033;
+	color; #0FC;
+	padding:20px;
+}
+
+#boton:hover{
+	cursor:pointer;
+	}
+	
+	@media (max-width:480px){
+	form{
+		width: 100%;
+	}
+	}
+	
+	
+	
+	
+	
+	
+	
+	

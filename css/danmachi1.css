@@ -1,0 +1,52 @@
+
+body{font-family: Arial;}
+
+  #menu{
+  background-color: #000;
+  }
+  #menu ul{
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  }
+  
+  #menu ul li{
+  display: inline-block;
+  }
+  #menu ul li a{
+  color: white;
+  display: block;
+  padding: 10px 90px;
+  text-decoration: none;
+  }
+  #menu ul li a:hover{
+  background-color: #0FC;
+  }
+ 
+h1{
+	color:#0FC;
+	font-family:"Comic Sans MS", cursive;
+	font-size:40px;
+
+
+	
+}
+h2{
+	color:#F09;
+	font-family:"Comic Sans MS", cursive;
+	font-size:40px;
+	
+}
+
+body{
+    background-color: #CFF;
+    
+}
+
+p{
+	padding: 20px 20px;
+    color:#000;
+    font-family:"Comic Sans MS";
+	font-size:18px;
+    
+}
